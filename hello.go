@@ -36,6 +36,11 @@ var c, python, java = true, false, "yes"
 
 const NAME = "Uzi"
 
+var (
+	firstName = "Usman"
+	lastName  = "Saleem"
+)
+
 func main() {
 	fmt.Println("My favorite number is", rand.Intn(10))
 	fmt.Printf("Now you have %g problems.\n", math.Sqrt(7))
@@ -62,4 +67,6 @@ func main() {
 	fmt.Printf("amount type: %T\n amountWhole Type: %T\n", amount, amountWhole)
 
 	fmt.Println("Name: ", NAME)
+
+	fmt.Println(firstName, lastName)
 }
